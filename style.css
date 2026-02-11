@@ -335,7 +335,7 @@ section {
   position: absolute;
   top: 0vw;
   display: block;
-  width: 85%;
+  width: 98%;
   object-fit: cover;
   mix-blend-mode: lighten;
 }
