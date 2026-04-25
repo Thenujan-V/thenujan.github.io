@@ -18,21 +18,19 @@
 <body>
   <header data-aos="fade-down" data-aos-delay="300">
     <a href="#" class="logo">Thenuz.</a>
-    <input type="checkbox" id="menu-toggle" hidden />
-    <label for="menu-toggle" class="menu-icon">
-      <i class="fa-solid fa-bars fa-X" id="menu-icon"></i>
-    </label>
-
-    <nav class="nav-links">
-      <a href="#" class="active">Home</a>
-      <a href="#about-section">About</a>
-      <a href="#resume-section">Resume</a>
-      <a href="#skills-section">Skills</a>
-      <a href="#projects-section">Projects</a>
-      <a href="#articles-section">Articles</a>
-      <a href="#contact-section">Contact</a>
-    </nav>
+    <button class="menu-icon" id="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <i class="fa-solid fa-bars" id="menu-icon-i"></i>
+    </button>
   </header>
+  <nav class="nav-links" id="nav-links">
+    <a href="#" class="active">Home</a>
+    <a href="#about-section">About</a>
+    <a href="#resume-section">Resume</a>
+    <a href="#skills-section">Skills</a>
+    <a href="#projects-section">Projects</a>
+    <a href="#articles-section">Articles</a>
+    <a href="#contact-section">Contact</a>
+  </nav>
 
   <!-- home section -->
   <section class="home-section">
@@ -459,9 +457,6 @@
                 <i class="fa-regular fa-square-full fa-sm"></i>
                 <span>Security Best Practices</span>
               </div>
-            </div>
-            <div class="gif">
-              <img src="assets/coding_gif1.gif" alt="coding animation">
             </div>
           </div>
         </div>

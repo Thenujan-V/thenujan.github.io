@@ -1,7 +1,7 @@
 footer {
     padding: 2rem 9% 1rem;
     min-height: fit-content;
-    background-color: var(--bg-color);
+    background-color: var(--bg-color) !important;
     /* box-shadow: 0 4px 30px #5e33b3c5; */
     /* filter: brightness(1.5); */
     border-top: 2px solid #5e33b356;
