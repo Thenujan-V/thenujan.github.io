@@ -1428,7 +1428,7 @@ background-image: linear-gradient(to bottom, rgba(15, 7, 22, .9), transparent 80
   }
   .nav-links.open {
     transform: translateY(0);
-    top: 48px;
+    top: 45px;
   }
 }
 

@@ -223,10 +223,17 @@
 }
 @media (max-width: 500px) {
   .contact-section .outbox {
+    width: 94%;
     padding-bottom: 2rem;
   }
   .contact-section .outbox .left h2 {
     font-size: clamp(40px, 8vw, 6vw);
   }
   
+}
+
+@media (max-width: 400px) {
+  .contact-section .outbox {
+    width: 96%;
+  }
 }

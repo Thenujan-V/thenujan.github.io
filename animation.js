@@ -88,7 +88,7 @@ const slideObserver = new IntersectionObserver((entries) => {
       entry.target.classList.remove('animation-visible')
     }
   });
-}, { threshold: 0.2 });
+}, { threshold: 0.01, rootMargin: '0px 0px -10% 0px' });
 
 slideLeftElements.forEach(el => slideObserver.observe(el));
 
