@@ -11,7 +11,6 @@ function splitLines(element) {
 
 
 function textAnimation() {
-    console.log("text animation");
     animation && animation.revert();
     animation = gsap.from(split.lines, {
         rotationX: -100,

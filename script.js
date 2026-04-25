@@ -47,7 +47,6 @@ for (i = 0; i < coll.length; i++) {
   coll[i].addEventListener("click", function () {
     this.classList.toggle("active");
     var content = this.nextElementSibling;
-    console.log(content);
     if (content.style.maxHeight) {
       content.style.maxHeight = null;
 
@@ -64,8 +63,8 @@ articlesFilterSelection("all")
 function articlesFilterSelection(c) {
   var x, i;
   x = document.getElementsByClassName("content");
-  if (c == "all") c = "";
-  // Add the "show" class 
+  if (c === "all") c = "";
+  // Add the "show" class
   for (i = 0; i < x.length; i++) {
     filterRemoveClass(x[i], "show");
     if (x[i].className.indexOf(c) > -1) filterAddClass(x[i], "show");
@@ -76,7 +75,7 @@ projectsFilterSelection("all")
 function projectsFilterSelection(c) {
   var x, i;
   x = document.getElementsByClassName("project");
-  if (c == "all") c = "";
+  if (c === "all") c = "";
   // Add the "show" class 
   for (i = 0; i < x.length; i++) {
     filterRemoveClass(x[i], "show");
