@@ -56,10 +56,11 @@
 
 .contact-section .outbox .right .contact-link {
   padding: 1rem 1.5rem;
-  display: flex;
+  display: inline-flex;
   justify-content: space-between;
   align-items: center;
   gap: .8rem;
+  width: fit-content;
   border: 1px solid var(--main-gradient-first);
   border-radius: 8px;
 
